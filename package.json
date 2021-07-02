@@ -1,0 +1,21 @@
+{
+  "name": "typescript-node-js-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
